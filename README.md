@@ -50,7 +50,7 @@ All train file need to be the same path with 'dataset' folder. Run the Python sc
 
 ## Data Information (Snapshot Reconstruction Network) 
 
-The Python snapshot reconstruction network decodes a single scattering-encoded intensity image into a spatially resolved high-dimensional light-field representation. A intensity measurement of size 3840 × 3840 is mapped to a reconstructed cube of size 64 × 64 × C, where C denotes the number of reconstructed channels. An overall downsampling factor is 60.
+The whole HSD-Snapshot code is in 'HSD-Snapshot' folder. The Python snapshot reconstruction network decodes a single scattering-encoded intensity image into a spatially resolved high-dimensional light-field representation. A intensity measurement of size 3840 × 3840 is mapped to a reconstructed cube of size 64 × 64 × C, where C denotes the number of reconstructed channels. An overall downsampling factor is 60.
 
 - network_unet.py: Snapshot reconstruction model, including PixelUnshuffle downsampling, residual blocks, and channel attention.
 
